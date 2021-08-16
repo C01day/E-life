@@ -1,5 +1,5 @@
 {
-  "name": "vuepress-starter",
+  "name": "e-life",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "async-validator": "1.11.5",
+    "element-ui": "^2.15.5",
     "vuepress": "^1.8.2"
   }
 }
