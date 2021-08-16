@@ -14,5 +14,8 @@
     "async-validator": "1.11.5",
     "element-ui": "^2.15.5",
     "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "glob-parent": "^6.0.1"
   }
 }
