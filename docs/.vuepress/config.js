@@ -10,6 +10,11 @@ module.exports = {
           icon: "el-icon-house"
         },
         {
+          text: "附近活动",
+          link: "/activity",
+          // icon: "el-icon-house"
+        },
+        {
           text: "出行轨迹",
           link: "/path",
           icon: "el-icon-location-information"
