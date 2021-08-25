@@ -166,9 +166,9 @@
     .box-card2 /deep/ .el-card__header {
         background: rgba(161, 249, 249, 1);
     }
-    /* /deep/ .el-card__body {
+    /deep/ .el-card__body {
         background: rgba(245, 249, 161, 1);
-    } */
+    }
     .el-select {
         margin-top: 20px;
         width: 20%;
