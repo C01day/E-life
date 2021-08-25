@@ -56,4 +56,14 @@
     img {
         margin-top: 20px;
     }
+    .el-card {
+        border-radius: 16px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+    }
+    .el-card__header {
+        background: rgba(161, 249, 249, 1);
+    }
+    .el-card__body {
+        background: rgba(245, 249, 161, 1);
+    }
 </style>
