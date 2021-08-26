@@ -134,9 +134,9 @@
     /deep/.el-card__header {
         background: #ffb6c1;
     }
-    /* /deep/.el-card__body {
+    /deep/.el-card__body {
         background: rgba(245, 249, 161, 1);
-    } */
+    }
     .el-button {
         margin: 0 auto;
         margin-top: 20px;

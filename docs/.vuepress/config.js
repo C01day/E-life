@@ -24,6 +24,10 @@ module.exports = {
           text: "公交车出行",
           link: "/bus_search",
         },
+        {
+          text: "地铁流量",
+          link: "/subway",
+        },
       ]
     }
   }

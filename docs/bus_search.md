@@ -3,7 +3,7 @@
   <div slot="header" class="clearfix">
   <span style="color: red;">当前站：<br/>复旦大学新江湾城校区</span>
   </div>
-  <div>经过的公交：168路，1201路，1226路</div>
+  <div>经过的公交：168 路，1201 路，1226 路</div>
   </el-card>
 </el-row>
 <el-row>
@@ -24,7 +24,7 @@
 <!-- <el-row> -->
 <el-card class="box-card2" shadow="hover" v-for="(item,index) in AfterFilter" :key="index">
 <div slot="header" class="clearfix">
-<span :style="{color: item.Color}">{{item.Type}}路</span>
+<span :style="{color: item.Color}">{{item.Type}} 路</span>
 </div>
 <div>方向：{{item.Route}}</div>
 <div>车辆数：{{item.CarNum}}辆</div>
@@ -163,7 +163,11 @@
         border-radius: 16px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
     }
+    .box-card1 /deep/.el-card__header {
+        background: #ffb6c1;
+    }
     .box-card2 /deep/ .el-card__header {
+        font-size: 24px;
         background: rgba(161, 249, 249, 1);
     }
     /deep/ .el-card__body {
