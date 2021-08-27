@@ -77,7 +77,7 @@
     <el-step title="淞沪路殷高路(轨道交通10号线殷高东路站)"></el-step>
     <el-step title="淞沪路国晓路"></el-step>
     <el-step title="淞沪路殷行路(轨道交通10号线新江湾城站)" icon="el-icon-location-outline"></el-step>
-    <el-step title="复旦大学新江湾城校区" style="color: red;"></el-step>
+    <el-step title="复旦大学新江湾城校区"></el-step>
     <el-step title="国浩路政和路" icon="el-icon-location-outline"></el-step>
     <el-step title="政和路国帆路"></el-step>
     <el-step title="国帆路淞沪路"></el-step>
@@ -96,13 +96,6 @@
                     return str.replace("\r\n", "<br>");;
                 });
     },
-        // computed: {
-        //     str: function(){
-        //         return Content.map((str)=>{
-        //             return str.replace(/\n/g,"<br/>");
-        //         });
-        //     }
-        // },
         data() {
             return {
                 str: [],

@@ -1,4 +1,6 @@
 <el-tag type="success">您当前所在的位置为：一大会址</el-tag>
+<el-button class="top-button" icon="el-icon-magic-stick" type="primary" @click="goBus" size="mini">公交车出行</el-button>
+<el-button class="top-button" icon="el-icon-magic-stick" type="primary" @click="goSubway" size="mini">地铁流量</el-button>
 <div align=center>
     <el-switch
     style="display: block"
@@ -80,6 +82,12 @@
         },
         nextRoute() {
             this.$router.push({ path: `/select.html` });
+        },
+        goBus() {
+            this.$router.push({ path: `/bus_search.html` });
+        },
+        goSubway() {
+            this.$router.push({ path: `/subway.html` });
         }
     }
   };
@@ -87,9 +95,13 @@
 
 <style scoped>
     .el-button {
-        margin-top: 20px;
+        margin-top: 10px;
         vertical-align:middle;
         text-align: center;
+    }
+    .top-button {
+        margin-top: 0px;
+        margin-left: 0px;
     }
     .searchButton {
         margin-left: 10px;

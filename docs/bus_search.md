@@ -127,7 +127,9 @@
                 }
             },
             Search() {
-                this.$router.push({ path: `/bus_route.html` });
+                if(this.BusTypeNow=="168") this.$router.push({ path: `/bus_route_168.html` });
+                else if(this.BusTypeNow=="1201") this.$router.push({ path: `/bus_route_1201.html` });
+                else if(this.BusTypeNow=="1226") this.$router.push({ path: `/bus_route_1226.html` });
             }
         }
     }
