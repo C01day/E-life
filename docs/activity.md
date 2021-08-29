@@ -6,13 +6,13 @@
   <div slot="header" class="clearfix" style="font-size: 30px;">
     <span>{{item.Title}}</span>
     <el-tooltip class="item" effect="dark" content="查看详情" placement="top">
-    <el-button icon="el-icon-search" style="position: absolute; left: 380px;" circle  @click="info(item)"></el-button>
+    <el-button icon="el-icon-search" style=" margin-right: 0%;" circle  @click="info(item)"></el-button>
     </el-tooltip>
     <el-tooltip class="item" effect="dark" content="参加活动" placement="top">
-    <el-button type="success" icon="el-icon-check" style="position: absolute; left: 420px;" circle @click="join"></el-button>
+    <el-button type="success" icon="el-icon-check" style=" margin-right: 0%;" circle @click="join"></el-button>
     </el-tooltip>
     <el-tooltip class="item" effect="dark" content="收藏活动" placement="top">
-    <el-button type="warning" icon="el-icon-star-off" style="position: absolute; left: 470px;" circle @click="collect"></el-button>
+    <el-button type="warning" icon="el-icon-star-off" style=" margin-right: 0%;" circle @click="collect"></el-button>
     </el-tooltip>
   </div>
   <el-row>
